@@ -66,10 +66,7 @@ LSP_SERVER = server.LanguageServer(
 
 TOOL_MODULE = "vscode-bandit"
 TOOL_DISPLAY = "VS Code Bandit"
-
-# TODO: Update TOOL_ARGS with default argument you have to pass to your tool in
-# all scenarios.
-TOOL_ARGS = []  # default arguments always passed to your tool.
+TOOL_ARGS = ["--format=json"]  # default arguments always passed to your tool.
 
 
 # TODO: If your tool is a linter then update this section.
