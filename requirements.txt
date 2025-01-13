@@ -10,10 +10,10 @@ attrs==24.3.0 \
     # via
     #   cattrs
     #   lsprotocol
-bandit==1.8.0 \
-    --hash=sha256:b1a61d829c0968aed625381e426aa378904b996529d048f8d908fa28f6b13e38 \
-    --hash=sha256:b5bfe55a095abd9fe20099178a7c6c060f844bfd4fe4c76d28e35e4c52b9d31e
-    # via -r ./requirements.in
+bandit==1.8.2 \
+    --hash=sha256:df6146ad73dd30e8cbda4e29689ddda48364e36ff655dbfc86998401fcf1721f \
+    --hash=sha256:e00ad5a6bc676c0954669fe13818024d66b70e42cf5adb971480cf3b671e835f
+    # via -r requirements.in
 cattrs==24.1.2 \
     --hash=sha256:67c7495b760168d931a10233f979b28dc04daf853b30752246f4f8471c6d68d0 \
     --hash=sha256:8028cfe1ff5382df59dd36474a86e02d817b06eaf8af84555441bac915d2ef85
@@ -35,7 +35,7 @@ mdurl==0.1.2 \
 packaging==24.2 \
     --hash=sha256:09abb1bccd265c01f4a3aa3f7a7db064b36514d2cba19a2f694fe6150451a759 \
     --hash=sha256:c228a6dc5e932d346bc5739379109d49e8853dd8223571c7c5b55260edc0b97f
-    # via -r ./requirements.in
+    # via -r requirements.in
 pbr==6.1.0 \
     --hash=sha256:788183e382e3d1d7707db08978239965e8b9e4e5ed42669bf4758186734d5f24 \
     --hash=sha256:a776ae228892d8013649c0aeccbb3d5f99ee15e005a4cbb7e61d55a067b28a2a
@@ -43,7 +43,7 @@ pbr==6.1.0 \
 pygls==1.3.1 \
     --hash=sha256:140edceefa0da0e9b3c533547c892a42a7d2fd9217ae848c330c53d266a55018 \
     --hash=sha256:6e00f11efc56321bdeb6eac04f6d86131f654c7d49124344a9ebb968da3dd91e
-    # via -r ./requirements.in
+    # via -r requirements.in
 pygments==2.18.0 \
     --hash=sha256:786ff802f32e91311bff3889f6e9a86e81505fe99f2735bb6d60ae0c5004f199 \
     --hash=sha256:b8e6aca0523f3ab76fee51799c488e38782ac06eafcf95e7ba832985c8e7b13a
